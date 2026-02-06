@@ -28,4 +28,5 @@ jobs:
     - run: npm ci
     - run:
         touch .env
-        echo "${{madhu_secret}}"> .env
+        echo "${{ secrets.madhu_secret }}" > .env
+

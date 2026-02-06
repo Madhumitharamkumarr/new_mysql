@@ -3,18 +3,3 @@ node_modules/
 
 # Environment variables (important)
 .env
-
-# Logs
-*.log
-logs/
-
-# Build folders
-dist/
-build/
-
-# VS Code settings
-.vscode/
-
-# OS junk
-.DS_Store
-Thumbs.db
